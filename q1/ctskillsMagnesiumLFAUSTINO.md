@@ -24,7 +24,7 @@
 | Sub-problem | CT Skill | Proposed Solution |
 |---|---|---|
 | Students take too long to decide what to order, causing delays in the queue. | Abstraction | Display a simple menu with the available food, prices, and a basic descriptions so students can quickly choose what to order.|
-
+|---|---|---|
 | Slow and error-prone payment processing | Algorithm Design | Create a step-by-step processs that automatically calculates the total, accepts the payment, and calculates the correct changes---just like a cashier register. |
 
 | Lack of real-time inventory tracking | Pattern recognition | Track the quantity of each food item and set a warning when the quantity of a food item reaches a certain level, such as 5 items remaining. |
