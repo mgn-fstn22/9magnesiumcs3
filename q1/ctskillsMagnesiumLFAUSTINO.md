@@ -22,7 +22,7 @@
 ---
 ## Step 3: Apply Computational Thinking Skills
 | Sub-problem | CT Skill | Proposed Solution |
-
+|---|---|---|
 | Students take too long to decide what to order, causing delays in the queue. | Abstraction | Display a simple menu with the available food, prices, and a basic descriptions so students can quickly choose what to order.|
 
 | Slow and error-prone payment processing | Algorithm Design | Create a step-by-step processs that automatically calculates the total, accepts the payment, and calculates the correct changes---just like a cashier register. |
