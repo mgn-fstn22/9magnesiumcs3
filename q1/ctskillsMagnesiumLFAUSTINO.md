@@ -1,9 +1,9 @@
 # Computational Thinking Exercise
 ## Smart School Canteen Queue
-**Name:** Megan Faustino
-**Section:** Magnesium
-**Last Name:** Faustino
-**Date Completed:** August 19, 2026
+**Name:** Megan Faustino 
+**Section:** Magnesium 
+**Last Name:** Faustino 
+**Date Completed:** August 19, 2026 
 ---
 
 ## Step 1: Identify the Big Problem
