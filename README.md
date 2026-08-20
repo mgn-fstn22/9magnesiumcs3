@@ -8,6 +8,6 @@
 # Quarter 1
 ## Activities
 ### Computational Thinking Skills
-
+[View my Computational Thinking Skills Exercise](q1/ctskillsMagnesiumLFAUSTINO.md)
 ### Chinese Zodiac Activity
 [View my Chinese Zodiac Activity](q1/zodiacMagnesiumFAUSTINO.md)
