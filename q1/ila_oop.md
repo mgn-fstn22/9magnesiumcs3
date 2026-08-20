@@ -20,4 +20,4 @@ In this problem, I can use polymorphism by giving different product classes the 
 
 ### Reflection
 
-After the discussion of the four pillars of OOP and doing this Independent Learning Activity, I learned that the four pillars of OOP can help me organize the given problem, sari-sari store inventory system, better. Moreover, I can use them to keep the data organized, reduce repeated code, and make the program easier to manage.
+After the discussion of the four pillars of OOP and doing this Independent Learning Activity, I learned that the four pillars of OOP can help me organize the given problem, sari-sari store inventory system, better. Moreover, I can use them to keep the data organized, reduce repeated code, and make the program easier to manage. Among the four pillars of OOP, I think encapsulation would be the most useful because it allows me to store/keep the product name, price, and stock together in one class. With encapsulation, I can make the inventory much more organized.
