@@ -5,11 +5,18 @@
 
 ### 1. Encapsulation
 
+I can apply encapsulation by putting the product name, price, and stock inside a class called Product. Afterwards, I can use methods like add_stock() and remove_stock() to hcnage the stock; consequently, this keeps the product information organized.
 ### 2. Abstraction
+
+For abstraction, I can create a method called sell_product() that handles the selling process since I do not need to see all the steps happenin inside the method. This will make the program simpler to use.
 
 ### 3. Inheritance
 
+I can use inheritance by creating a Product class and letting classes like FoodProduct and SchoolProduct inherit from it. The classes can use the same properties such as name, price, and stock; therefore, I can avoid repeating the same code.
+
 ### 4. Polymorphism
+
+In this problem, I can use polymorphism by giving different product classes the same method. For example, the FoodProduct and SchoolProduct can both have a display_info() method but show different information because they are different products.
 
 ### Reflection
 
