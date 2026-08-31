@@ -11,13 +11,14 @@ ___
 | --- | --- | --- |
 | Health Points (HP) | int (integer) | This property is the amount of damage the rogue/character can take before dying and reloaded.|
 | Melee Damage | int (integer) | This is the ammount of HP that will be subtracted from the target when the target is standing near the rogue and is hit. |
-| Attributes (e.g. Agility (AGI)) | int (integer) | In the game, attributes are stored as whole number, and each number corresponds to a level of attribute. |
+| Experience Points (exp) | int (integer) | In the game, exp is the amount of experience points the character has. After a certain amount of exp, the rogue would level up. |
 ___
 
 ## Methods
 | **Method** | **Description** |
-| --- | --- |
-| | | |
+| Level Up | --- |
+| Joing Guild | | |
+|  
 
 ## Class Diagram
 ### basta yung link
