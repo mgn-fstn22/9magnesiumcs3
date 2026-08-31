@@ -1,5 +1,8 @@
 # SG4 - Understanding Classes and Objects
-## Class Name
+## Class Name: Cleric
+- Context:
+* Game - Exiled Kingdom
+
 ## Class Description
 ## Properties
 | **Property** | **Data Type** | **Description** |
