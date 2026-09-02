@@ -22,7 +22,7 @@ ___
 | Level Up | This grants the character trait points and skill points. These points can be used to learn new abilities or level up the existing one (e.g., Stab --> Stab IV)|
 | Join Guild | When a rogue joins a guild/faction, the character unlocks access to Advances Skills and faction-exclusive equipment. There are four guilds in Exiled Kingdom, but most rogues join The Seventh House (the Thieves' Guild). | 
 | Stab | Stab is one of the most used rogue skill in the game. It can be learned since the start of the storyline or as the character levels up. Stab is when the character prepares for a single, deadly attack; afterwards, the character will have the chance to launch another attack that will deal with extra damage. |
-| Equip Armor 
+| Equip Armor or Weapon | As a Rogue, it is important to have the necessary armor and weapon to combat enemies and finish of quests. In the game, there are multiple weapons and armors for the class Rogue. |
 
 
 ## Class Diagram
