@@ -13,7 +13,11 @@ Link to my previous activity:
 
 | **Attribute** | **Data Type** | **Visibility** | **Reason** |
 | --- | --- | --- | --- |
-| | | | |
+| Health Points | int (integer) | Public | In an RPG game, health points are visible to players because it will make them aware of how much damage or skills they must play to eliminate the oppponent. With that, it will be fair if the rogue's health points will be open to the public as well.|
+| Melee Damage | int (integer) | Private | In the game, melee damage  is bla bla bla |
+| Experience Points | int (integer) | Public | adasdjnasndaksdn |
+| Advanced Rogue Skills | str (string) | Private | Reason |
+| Basic Rogue Skills | str (string) | Private | Reason |
 
 --- 
 ## Updated UML Class Diagram
