@@ -11,11 +11,11 @@ Link to my previous activity:
 | --- | --- | --- |
 | **Additional Property:** name, string | Added property | The rogue character must have a name. |
 |**Additional Property:** brs_skill_points, integer | Added property | Since the basic rogue skills level up, it is necessary to have a variable about the number of trait points allotted to the skills. |
-|**Additional Property:** ars_skill_points, integer | Added property | Since the advanced rogue skills also level up, it is necessary to have a variable that will store the amount of trait points that each advance rogue skills gets. |
+|**Additional Property:** guild_name, string | Added property | The guild the character/rogue joined. |
+|**Additional Property:** equipped_gear, string | Added property | What weapons and armors the rogue has equipped. |
 | Health Points (HP) | **health_points** | The new variable name follows the Python snake_case convention; it is easier and more recognizable. |
 | Melee Damage | **melee_damage** | Similar reason for variable health_points; the snake_case would create consistency in naming variables. | 
 | Experience Points (exp) | **exp** | The variable name "exp" is often used in RPG games as an acronym for the word: experience. |
-| Advanced Rogue Skills | **advance_rogue_skills** | Replace the spaces with underscores to create a valid variable name. |
 | Basic Rogue Skills | **basic_rogue_skills** | Same as above. |
 
 - Added other properties, but removed the advanced rogue skills.
@@ -26,7 +26,7 @@ Link to my previous activity:
 | Level Up | **LevelUpAttribute()** | A Python standard naming method that removes the space. Moreover, the definition of Level Up is only adding points to the basic rogue skills. |
 | Join Guild | **JoinGuild()** | Consistent PascalCase for methods. |
 | Equip Armor or Weapon | **EquipGear()** | A shorter version of equipping items, but still clear. |
-- Add the method skill
+- Add the method skill which will display all rogue skills.
 -------
 ## Visibility Decisions
 
@@ -38,6 +38,8 @@ Link to my previous activity:
 | **exp** | int | Private | Just like for health points, this attribute must be private so that there will be no modifications in the code that will affect how the character or rogue can level-up or how much exp they can gain per kill. |
 | **basic_rogue_skills** | str | Public | This is the fixed basic set of skill that are already displayed, so it is safe to be a public attribute. |
 | **brs_skill_points** | int | Private | Trait points should only be in the class so it won't be edited by external codes to add or minus trait points to certain character. |
+| **guild_name** | str | Public | This property does not need strict monitoring becaus this is just guild name. |
+| **equipped_gear** | str | Public | This property also can be public because this only contains what gear the character currently have right now. |
 
 
 --- 
