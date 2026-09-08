@@ -56,8 +56,8 @@ class Rogue:
             return f"{self.name} does not have the Stab skill leveled up."
 
 
-rogue1 = Rogue("Christine", 2, "The Seventh House", {}, 30, 1, 0, {"Archery": 0, "Evasion": 0, "Kick": 0, "Sneak Attack": 0, "Sprint": 0, "Stab": 0, "Stealth": 0, "Trap Master": 0})
-rogue2 = Rogue("Dante", 2, {}, {}, 30, 1, 0, {"Archery": 0, "Evasion": 0, "Kick": 0, "Sneak Attack": 0, "Sprint": 0, "Stab": 0, "Stealth": 0, "Trap Master": 0})
+rogue1 = Rogue("Carmelo", 2, "The Seventh House", {}, 30, 1, 0, {"Archery": 0, "Evasion": 0, "Kick": 0, "Sneak Attack": 0, "Sprint": 0, "Stab": 0, "Stealth": 0, "Trap Master": 0})
+rogue2 = Rogue("Louis", 2, "Wizard's Guild", {}, 30, 1, 0, {"Archery": 0, "Evasion": 0, "Kick": 0, "Sneak Attack": 0, "Sprint": 0, "Stab": 0, "Stealth": 0, "Trap Master": 0})
 
 # Instantialization:
 print("OBJECT 1 INITIAL STATE")
