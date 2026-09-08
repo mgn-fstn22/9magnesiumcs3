@@ -44,16 +44,16 @@ Link to my previous activity:
 
 --- 
 ## Updated UML Class Diagram
-- View my Update UML Diagram
+![Updated UML Class Diagram](images/ComSci-Class.png)
 
 ## Python Implementation
 [View Python Source](classimplementation.py)
 
 ## Test Run
-- Link
+![Test Run](images/ClassTestRun.png)
 
 ## Object Diagram
-- Link
+![Object Diagram](images/objectDiagram.png)
 
 ---
 ## Analysis
@@ -73,4 +73,4 @@ Link to my previous activity:
 
 
 # Declaration of Use of AI:
-- I used Google Gemini to further understand Object-Oriented Programming. I asked Gemini to give me an example of a .py about classes and object. Moreover, here in VSCode the autofill feature was used, but I modified some of the autofilled codes. 
+- I used Google Gemini to further understand Object-Oriented Programming. I asked Gemini to give me an example of a .py about classes and object. Moreover, here in VSCode the autofill feature was used, but I modified some parts of the code. I can still understand the parts of the code, despite the autofill feature.

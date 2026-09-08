@@ -15,3 +15,5 @@
 [View my ILA 3-1 Activity](q1/ila_oop.md)
 ### OOPAct
 [View my OOPAct Activity](q1/classObjectUML.md)
+### OOPAct - PartII
+[View my OOPAct - Part II](q1/classAttributesMethods.md)
