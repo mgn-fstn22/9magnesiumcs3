@@ -1,5 +1,5 @@
 class Rogue:
-    def __innit__(self, name, brs_skill_points, guild_name, equipped_gear, health_points, melee_damage, exp, basic_rogue_skills):
+    def __init__(self, name, brs_skill_points, guild_name, equipped_gear, health_points, melee_damage, exp, basic_rogue_skills):
         self.name = name
         self.melee_damage = 1
         self.basic_rogue_skills = basic_rogue_skills
@@ -45,7 +45,16 @@ def stab(self, target):
         if self.basic_rogue_skills["Stab"] > 0:
             damage = self.__melee_damage + self.basic_rogue_skills["Stab"]
             target.receive_damage(damage)
+            target.health_points -= damage
             return f"{self.name} stabbed {target.name} for {damage} damage."
         else:
             return f"{self.name} does not have the Stab skill leveled up."
 
+
+rogue1 = Rogue("Christine", 2, "The Seventh House", {}, 30, 1, 0, {"Archery": 0, "Evasion": 0, "Kick": 0, "Sneak Attack": 0, "Sprint": 0, "Stab": 0, "Stealth": 0, "Trap Master": 0})
+rogue2 = Rogue("Dante", 2, {}, {}, 30, 1, 0, {"Archery": 0, "Evasion": 0, "Kick": 0, "Sneak Attack": 0, "Sprint": 0, "Stab": 0, "Stealth": 0, "Trap Master": 0})
+
+rogue1.LevelUpAttributes("Stab")
+rogue1.LevelUpAttributes("Stab")
+rogue1.stab(rogue2)
+rogue1.JoinGuild("The Seventh House")

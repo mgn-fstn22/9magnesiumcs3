@@ -63,7 +63,14 @@ Link to my previous activity:
 
 ### Which method changes the state of your object?
 
+- The method that changes the state of the object is LevelUpAttributes because after leveling up each attribute. The rogue will enhance their skills and they will be able to do much more than melee damage and basic combat.
+
 ### How did your two objects demonstrate that instances are independent?
+- Both objectes demonstrate that the instances are independent through
 
 ### What is the difference between your class diagrama and your object diagram?
-- My class diagram is the blueprint for the object diagram. It discusses
+- My class diagram is the blueprint for the object diagram. The class diagram will discuss the necessary parts, while the object diagrams will give the values for the said variables.
+
+
+# Declaration of Use of AI:
+- I used Google Gemini to further understand Object-Oriented Programming. I asked Gemini to give me an example of a .py about classes and object. Moreover, here in VSCode the autofill feature was used, but I modified some of the autofilled codes. 
