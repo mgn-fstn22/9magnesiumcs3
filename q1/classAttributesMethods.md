@@ -59,16 +59,16 @@ Link to my previous activity:
 ## Analysis
 
 ### Why did you make your chosen attribute private?
-- Certain attributes are meant to private because external codes must not be able to access them to make the game fair. The whole purpose of an RPG game is to roleplay, not to create modifications that would make it unfair. The private attributes are health_points, exp, brs_skill_points, and ars_skill_points because personally these properties are the foundation of the game and if one of them got corrupted then the whole game will lose its purpose.
+- Certain attributes are meant to be private because external code must not be able to access them to make the game fair. The whole purpose of an RPG game is to roleplay, not to create modifications that would make it unfair. The private attributes are health_points, exp, brs_skill_points, and ars_skill_points because, personally, these properties are the foundation of the game, and if one of them got corrupted, then the whole game would lose its purpose.
 
 ### Which method changes the state of your object?
 
-- The method that changes the state of the object is LevelUpAttributes because after leveling up each attribute. The rogue will enhance their skills and they will be able to do much more than melee damage and basic combat.
+- The method that changes the state of the object is LevelUpAttributes because, after leveling up, each attribute. The rogue will enhance their skills, and they will be able to do much more than melee damage and basic combat.
 
 ### How did your two objects demonstrate that instances are independent?
-- Both objectes demonstrate that the instances are independent through
+- Both objects demonstrate that the instances are independent through the attributes. Yes, they are from the same class, but their properties are different. Moreover, the method used on the first object does not work on the second if not commanded, strengthening the claim that the two objects are independent.
 
-### What is the difference between your class diagrama and your object diagram?
+### What is the difference between your class diagram and your object diagram?
 - My class diagram is the blueprint for the object diagram. The class diagram will discuss the necessary parts, while the object diagrams will give the values for the said variables.
 
 
