@@ -18,4 +18,4 @@
 ### OOPAct - Part II
 [View my OOPAct - Part II](q1/classAttributesMethods.md)
 ### OOPAct - Part III
-View my OOPAct - Part III
+[View my OOPAct - Part III](q1/classRelationships.md)
