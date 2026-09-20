@@ -27,6 +27,7 @@
 ---
 
 ## UML Class Relationship Diagram
+[Class Relationship Diagram](images/classRelationshipDiagram.png)
 
 ## Python Implementation
 [View Python Source](classRelationships.py)
@@ -35,6 +36,7 @@
 ![Relationship Test Run](images/relationshipTestRun.png)
 
 ## Object Relationship Diagram
+[Object Relationship Diagram]()
 
 --- 
 
@@ -50,3 +52,9 @@
 - 
 ### If your relationship uses many, why is a list appropriate?
 - 
+
+## Declaration of AI
+- During the preparation of this activity, I used Gemini 3.6 Flash and Chat GPT-6 Astra to improve my code through identifying errors. Moreover, I used these LLMs to further understand the concepts. After using the said tools, I reviewed and edited the content as needed.
+
+## Reference:
+Companions - Exiled Kingdoms Wiki. (n.d.). https://www.exiledkingdoms.com/wiki/index.php?title=Companions
