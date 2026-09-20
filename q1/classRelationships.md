@@ -37,7 +37,7 @@
 ![Relationship Test Run](images/relationshipTestRun.png)
 
 ## Object Relationship Diagram
-[Object Relationship Diagram](images/objectRelationshipDiagram.png)
+![Object Relationship Diagram](images/objectRelationshipDiagram.png)
 
 --- 
 
