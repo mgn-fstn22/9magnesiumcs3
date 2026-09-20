@@ -28,7 +28,7 @@
 ---
 
 ## UML Class Relationship Diagram
-[Class Relationship Diagram](images/classRelationshipDiagram.png)
+![Class Relationship Diagram](images/classRelationshipDiagram.png)
 
 ## Python Implementation
 [View Python Source](classRelationships.py)
