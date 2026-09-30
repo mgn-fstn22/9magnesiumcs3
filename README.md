@@ -1,7 +1,9 @@
 # Computer Science 3 Portfolio
 ## Student Information
 **Name:** Megan O. Faustino
+
 **Section:** Magnesium
+
 **School Year:** 2026-2027
 
 ---
