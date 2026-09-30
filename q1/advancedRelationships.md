@@ -2,7 +2,6 @@
 
 ## Previous Activities
 **[classAttrib](classAttributesMethods.md)**
-
 **[classRel](classRelationships.md)**
 ---
 
