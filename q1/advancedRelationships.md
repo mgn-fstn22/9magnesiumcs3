@@ -19,7 +19,7 @@
 ![Inheritance](images/inheritanceDiagram.png)
 
 ## Composition/Aggregation
-**Relationship:** 
+**Relationship:** Aggregation 
 
 **Explanation:**
 
@@ -38,7 +38,7 @@
 ## Reflection
 1. Why did you choose your inheritance relationship? Explain why your child class is a type of your
 parent class.
-- 
+- The child class, ranged archer, showcases inheritance relationship with the Rogue because 
 2. How did inheritance reduce duplicate code? Identify attributes or methods that were reused.
 - 
 3. Why is your HAS-A relationship Composition or Aggregation? Explain the lifecycle relationship

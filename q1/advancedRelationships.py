@@ -10,7 +10,6 @@ class Rogue:
         self.__exp = 0
         self.__health_points = 30
         self.__brs_skill_points = 2
-
         
     def skills(self):
         return self.basic_rogue_skills
@@ -55,32 +54,6 @@ class Rogue:
         else:
             return f"{self.name} does not have the Stab skill leveled up."
 
-class RangedArcher:
-    def __init__(self, name: str, hp: int, damage: int, arrow_count: int):
-        self.name = name
-        self.arrow_count = arrow_count
-        self.__hp = hp
-        self.__damage = damage
-
-    def attack(self, target):
-        if self.arrow_count > 0:
-            target._RangedArcher__hp -= self.__damage
-            self.arrow_count -= 1
-            if target._RangedArcher__hp < 0:
-                target._RangedArcher__hp = 0
-                print(f"{target.name} has been defeated.")
-        else:
-            print(f"{self.name} has no arrows left to attack.")
-
-    def reload_arrows(self, count):
-        self.arrow_count += count
-        print(f"{self.name} has reloaded {count} amount of arrows.\n Current arrow count: {self.arrow_count}")
-
-    def aim(self, target):
-        if self.arrow_count > 0:
-            print(f"{self.name} is aiming at {target.name}")
-        else:
-            print(f"{self.name} has no arrows left to aim.")
 
 class RangedWeapon:
     def __init__(self, name: str, damage: int, durability: int):
@@ -90,12 +63,30 @@ class RangedWeapon:
 
 class RangedArcher(Rogue):
     def __init__(self, name: str, ranged_weapon: str):
-        super().__init__(name)
+        super().__init__(name, 1, "The Seventh House", "Ion Recurve", 30, 1, 0, {"Archery": 0, "Evasion": 0, "Kick": 0, "Sneak Attack": 0, "Sprint": 0, "Stab": 0, "Stealth": 0, "Trap Master": 0})
         self.ranged_weapon = ranged_weapon
 
     def attack(self):
         print(f"{self.name} attacked wtih a {self.ranged_weapon}")
 
-bowman = RangedArcher("Sophia", bow)
 bow = RangedWeapon("Ion Recurve", 13, 100)
+bowman = RangedArcher("Sophia", bow)
 
+print("\n⊹₊˚‧︵‿₊⊱·✶·⊰₊‿︵‧˚₊⊹")
+print("「Test 1: INHERITANCE」")
+print("₊˚ ✧ ━━━━⊱⋆⊰━━━━ ✧ ₊˚")
+
+print(f"Name: {bowman.name}")
+print(f"Melee Dmage: {bowman.melee_damage}")
+print(f"skills: {bowman.skills()}")
+
+print("\n⊹₊˚‧︵‿₊⊱·✶·⊰₊‿︵‧˚₊⊹")
+print("「Test 2: AGGREGATION」")
+print("₊˚ ✧ ━━━━⊱⋆⊰━━━━ ✧ ₊˚")
+print(f"Archer: {bowman.name}")
+print(f"Weapon: {bowman.ranged_weapon.name}")
+print(f"Damage: {bowman.ranged_weapon._damage}")
+print(f"Durability: {bowman.ranged_weapon.durability}")
+
+print("----- END -----")
+    
