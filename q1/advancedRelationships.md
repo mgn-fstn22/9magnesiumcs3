@@ -10,7 +10,7 @@
 ## Inheritance Relationship
 **Parent:** Rogue
 
-**Child:** RangedArcher (This is a new class since my previous classes have a "has-a" relationship with each other).
+**Child:** RangedArcher (This is a new class).
 
 **Explanation:** A ranged archer is a type of rogue the specializes in archery and ranged attacks.
 
@@ -30,7 +30,7 @@
 [Source Code](advancedRelationships.py)
 
 ## Test Run
-![Test](images/relationshipTestRun.png)
+![Test](images/advancedTestRun.png)
 
 ## Object Diagram
 ![Objects](images/advancedObjectDiagram.png)
