@@ -23,3 +23,9 @@
 [View my OOPAct - Part III](q1/classRelationships.md)
 ### OOPAct - Part IV
 [View my OOPAct - Part IV](q1/advancedRelationships.md)
+
+---
+# Quarter 2
+## Activities
+### Encapsulation Activity
+[View my Encapsulation Activity](sg8_encapsulation.py)
