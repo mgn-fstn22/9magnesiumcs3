@@ -28,4 +28,4 @@
 # Quarter 2
 ## Activities
 ### Encapsulation Activity
-[View my Encapsulation Activity](sg8_encapsulation.py)
+[View my Encapsulation Activity](q2/sg8_encapsulation.py)
