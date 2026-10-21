@@ -22,10 +22,42 @@ class Publication: #Creates a class called Publication
         return f"Title: {self.__title}, \nAuthor: {self.__author}" #returns the title and author of the publication
 
 class Book(Publication): #Creates a child class called Book that inherits from the Publication class.
-    def __init__(self, number_of_pages: int): #Creates constructor method that initializes the number of pages of the book
-        self.__number_of_pages = number_of_pages #Private attribute for number of pages
+    def __init__(self, title: str, author: str, number_of_pages: int): #Creates constructor method that initializes the number of pages of the book
+        self.__number_of_pages = number_of_pages #Private attribute for number of pages and attribute only for this child class Book
         super().__init__(title, author) #Calls the constructor method of the parent class Publication to initialize the title and author attributes
 
-    def 
-pub1 = Publication("Journal of Experimental Psychology", "Ratchiff, R. & Van Dongen, H.") 
+    @property #makes the function be treated as an attribute
+    def get_number_of_pages(self): #Function that returns the number of pages of the book
+        return self.__number_of_pages #returns/print the number of pages of the book
+
+    def set_number_of_pages(self, number_of_pages): #creates the function that can access the private attribute number_of_pages and set it to a new number of pages
+        if number_of_pages > 0: #Checks if the number of pages is greater than 0
+            self.__number_of_pages = number_of_pages #assigns the new value to the private attribute
+
+class Magazine(Publication): #Creates a child class called Magazine that inherits from the Publication class.
+    def __init__(self, title: str, author: str, issue_number: int):
+        super().__init__(title, author) #Calls the constructor method of the parent class Publication to initialize the title and author attributes
+        self.__issue_number = issue_number #Private attribute for issue number and attribute only for this child class Magazine
+
+    @property
+    def get_issue_number(self): #Function that returns the issue number of the magazine
+        return self.__issue_number #returns/print the issue number of the magazine
+
+    def set_issue_number(self, issue_number): #creates a function that accesses the private attribute issue_number and assigns it a new value
+        self.__issue_number = issue_number #assigns the new value to the private attribute
+
+pub1 = Publication("Journal of Experimental Psychology", "Ratchiff, R. & Van Dongen, H.") #object for parent class Publication
+book1 = Book("The Hobbit", "J.R.R. Tolkien", 310) #object for child class Book
+mag1 = Magazine("National Geographic", "Various Authors", 202) #object for child class Magazine
+
+print("Publication Information:")
 print(pub1.display_info)
+
+print("\nBook Information:")
+book1.set_number_of_pages(-310) 
+print(book1.display_info)
+print(book1.get_number_of_pages)
+
+print("\nMagazine Information:")
+print(mag1.display_info)
+print(mag1.get_issue_number)
