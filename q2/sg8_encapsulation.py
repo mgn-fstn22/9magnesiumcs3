@@ -15,16 +15,16 @@ class BankAccount: #create class BankAccount
     def account_number(self):#Function that accesses and returns the account number
         return self.__account_number #return/print the account number
 
-    def balance(self):
-        return self.__balance
+    def balance(self): #Function that accesses and returns the balance
+        return self.__balance #return/print the balance
 
 a1 = BankAccount(12345, 1000) #Creates an instance of the BankAccount class
 
-print("Account 1")
-print(f"Account Number: {a1.get_account_number()}")
-print(f"Balance: {a1.get_balance()}\n")
+print("Account 1") #prints a string
+print(f"Account Number: {a1.get_account_number()}") #prints the account number of the bank account using the get_account_number
+print(f"Balance: {a1.get_balance()}\n") #prints the balance of the bank account using the get_balance method
 
-print("Update balance to -100")
-a1.set_balance(-100)
-print(f"Account Number: {a1.get_account_number()}")
-print(f"Balance: {a1.get_balance()}\n")
+print("Update balance to -100") #prints a string
+a1.set_balance(-100) #sets the balance of the bank account to -100 using the set_balance method
+print(f"Account Number: {a1.get_account_number()}") #prints the account number of the bank account using the get_account_number
+print(f"Balance: {a1.get_balance()}\n") #prints the balance of the bank account using the get_balance method

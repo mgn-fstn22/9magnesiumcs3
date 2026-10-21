@@ -35,11 +35,11 @@ class Book(Publication): #Creates a child class called Book that inherits from t
             self.__number_of_pages = number_of_pages #assigns the new value to the private attribute
 
 class Magazine(Publication): #Creates a child class called Magazine that inherits from the Publication class.
-    def __init__(self, title: str, author: str, issue_number: int):
+    def __init__(self, title: str, author: str, issue_number: int): #creates constructor method that initializes the issue number of the magazine and the attributes from parent class
         super().__init__(title, author) #Calls the constructor method of the parent class Publication to initialize the title and author attributes
         self.__issue_number = issue_number #Private attribute for issue number and attribute only for this child class Magazine
 
-    @property
+    @property #makes the function be treated as an attribute
     def get_issue_number(self): #Function that returns the issue number of the magazine
         return self.__issue_number #returns/print the issue number of the magazine
 
@@ -50,14 +50,14 @@ pub1 = Publication("Journal of Experimental Psychology", "Ratchiff, R. & Van Don
 book1 = Book("The Hobbit", "J.R.R. Tolkien", 310) #object for child class Book
 mag1 = Magazine("National Geographic", "Various Authors", 202) #object for child class Magazine
 
-print("Publication Information:")
-print(pub1.display_info)
+print("----Publication Information----") #prints a string
+print(pub1.display_info) #prints the information of the publication using the display_info method of the Publication class
 
-print("\nBook Information:")
-book1.set_number_of_pages(-310) 
-print(book1.display_info)
-print(book1.get_number_of_pages)
+print("\n----Book Information----") #prints a string
+book1.set_number_of_pages(-310)  #modifies the number of pages of the book using the set_number_of_pages method of the Book class
+print(book1.display_info) #prints the information of the book using the display_info method of the Publication class (inherited by the Book class)
+print(f"Number of Pages: {book1.get_number_of_pages}") #prints the number of pages of the book
 
-print("\nMagazine Information:")
-print(mag1.display_info)
-print(mag1.get_issue_number)
+print("\n----Magazine Information----") #prints a string
+print(mag1.display_info) #prints the information of the magazine using the display_info method of the Publication class (inherited by the Magazine class)
+print(f"Issue Number: {mag1.get_issue_number}") #prints the issue number of the magazine
