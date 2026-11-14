@@ -1,3 +1,11 @@
+#1. Answer the following questions:
+    #a. What is duck typing, as explained in the video?
+        #According to the video, duck typing  is one of the ways to achieve polymorphism in Python. 
+        #It is a concept that allows any object (even if it isn't a child class of a parent class; in simpler terms, no inheritance is needed) to be used as long as it has the same method or attribute as the other objects.
+    #b. What did the Car class need to have so it could work inside the same loop as Dog and Cat, even if it does not inherit from the Animal class?
+        #The Car class needed to have the same method as the Dog and Cat class, which is the speak method. If the Car class retained its method of horn, then it would not work inside the same loop.
+        #Moreover, the Car class also needed to have the same attribute as the other classes, which is the alive attribute. If the Car class did not have the alive attribute, then it would contrinute printing an AttributeError.
+
 class Drone(): #creates a drone class separate from the other classes
     def move(self): #creates a move method for the drone class
         print("The drone flies in the sky.") #prints a string
@@ -17,3 +25,6 @@ vehicles = [Drone(), Car(), Boat()] #creates a list of objects which has the mov
 
 for vehicle in vehicles: #creates a for loop that goes through each object in the vehicles list
     start_trip(vehicle) #calls the start_trip function with the objects in the list as the parameter
+
+#3. How does the code in 2.2 demonstrate polymorphism?
+    #To be answered since diko alam anong 2.2
