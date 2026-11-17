@@ -14,7 +14,7 @@ class Patient(): #creates a parent class named Patient
     def set_bill_amount(self,bill_amount): #creates a function that sets the bill amount of patient
             self.__bill_amount = bill_amount #sets the bill_amount to a new value that is inputted
 
-    def calculate_bill(self, bill_amount):
+    def calculate_bill(self, bill_amount): #create a function that prints the calculated/final bill of patient
         return f"Final Bill: {self.__bill_amount:,.2f}" #prints the bill amount of the patient (without discount since this is just ordinary patient)
 
     @property #makes the function be treated as an attribute
@@ -28,11 +28,11 @@ class SeniorPatient(Patient): #creates a child class named SeniorPatient (inheri
 
     @property #makes the function be treated as an attribute
     def get_name(self): #creates a function that prints the name of the senior patient
-        return f"Patient Name: {self.__name}"
+        return f"Patient Name: {self.__name}" #prints the seniorpatient's name
 
     @property #makes the function be treated as an attribute
     def get_bill_amount(self): #creates a function that prints the bill amount of the senior patient
-        return f"Original Bill: {self.__bill_amount:,.2f}"
+        return f"Original Bill: {self.__bill_amount:,.2f}" #prints the original bill in 2 decimal places
 
     def set_bill_amount(self,bill_amount): #creates a function that sets the bill amount of senior patient
         self.__bill_amount = bill_amount #sets the bill_amount to a new value that is inputted
@@ -54,7 +54,7 @@ class PhilHealthPatient(Patient): #creates a child class named PhilHealthPatient
 
     @property #makes the function be treated as an attribute
     def get_name(self): #creates a function that prints the name of the senior patient
-        return f"Patient Name: {self.__name}"
+        return f"Patient Name: {self.__name}" #prints the philhealth patient's name
       
     @property #makes the function be treated as an attribute
     def get_bill_amount(self): #creates a function that prints the bill amount of the senior patient

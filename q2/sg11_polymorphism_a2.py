@@ -27,4 +27,5 @@ for vehicle in vehicles: #creates a for loop that goes through each object in th
     start_trip(vehicle) #calls the start_trip function with the objects in the list as the parameter
 
 #3. How does the code in 2.2 demonstrate polymorphism?
-    #To be answered since diko alam anong 2.2
+    #This activity demonstrates polymorphism because it allows different objects to be used interchangeably through the same method call. This relies on what the object can do, rather than what class it inherits from.
+    #When the function move is called, it can be called on any class as long as they have that function (many forms for one method). Each class responds on its own way, but uses the same method call.
